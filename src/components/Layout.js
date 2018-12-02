@@ -16,18 +16,16 @@ const Wrapper = styled.div`
 
 const Footer = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 
   margin-top: 6rem;
   font-family: sans-serif;
+  text-align: center;
 `;
 
 const RedText = styled.span`
   color: red;
-`;
-
-const FooterLink = styled.a`
-  text-decoration: none;
 `;
 
 class Layout extends React.Component {
@@ -45,7 +43,10 @@ class Layout extends React.Component {
         </ContentWrapper>
 
         <Footer>
-          <p>Made by <FooterLink href="https://www.twitter.com/edmilson_rocha_" target="_blank">Ed</FooterLink> with <FooterLink href="https://www.gatsbyjs.org/" target="_blank">Gatsby</FooterLink> and <RedText>♥</RedText></p>
+          <p>
+            Made by <a href="https://www.twitter.com/edmilson_rocha_" target="_blank">Ed</a> with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and <RedText>♥</RedText>  <br/>
+            This page is also avaible on <a href="">Github!</a>
+          </p>
         </Footer>
       </Wrapper>
     )
