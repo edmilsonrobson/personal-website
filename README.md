@@ -1,11 +1,8 @@
-# gatsby-starter-blog
-Gatsby starter for creating a blog
+# Ed's Personal Website
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-
-`gatsby new gatsby-blog https://github.com/gatsbyjs/gatsby-starter-blog`
-
-Or [view the live demo here](https://gatsby-starter-blog-demo.netlify.com/).
+My personal website created using Gatsby, React and ♥.
 
 ## Running in development
-`gatsby develop`
+1) `npm install --global gatsby`
+2) `npm install` inside repo's folder
+3) `gatsby develop`
