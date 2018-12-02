@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter Blog',
-    author: 'Kyle Mathews',
-    description: 'A starter blog demonstrating what Gatsby can do.',
-    siteUrl: 'https://gatsby-starter-blog-demo.netlify.com/',
+    title: 'Edmilson Rocha',
+    author: 'Edmilson Rocha',
+    description: 'Edmilson Rocha, Fullstack Web Developer',
+    siteUrl: 'https://unruffled-heisenberg-cfa337.netlify.com/',
   },
   pathPrefix: '/gatsby-starter-blog',
   plugins: [
