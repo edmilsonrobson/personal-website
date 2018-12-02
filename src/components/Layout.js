@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-
+import layout from "./layout.css";
 import Header from "./Header";
 
 const ContentWrapper = styled.div`

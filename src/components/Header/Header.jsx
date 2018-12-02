@@ -101,7 +101,8 @@ const Header = (props) => {
 
       <NavbarLinks>
         <LinkItem to="/" selected={props.location.pathname === '/'}>Blog</LinkItem>
-        <LinkItem to="/contact" selected={props.location.pathname === '/contact'}>Contact</LinkItem>
+        <LinkItem to="/portfolio" selected={props.location.pathname === '/portfolio'}>Portfolio</LinkItem>
+        <LinkItem to="/contact" selected={props.location.pathname === '/contact'}>About</LinkItem>
         {/* <LinkItem to="/blog">Blog</LinkItem> */}
         {/* <LinkItem to="/portfolio">Portfolio</LinkItem> */}
       </NavbarLinks>
