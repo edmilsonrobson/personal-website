@@ -33,7 +33,7 @@ const contact = (props) => {
           <AboutMeText>
             Hey there! <br/><br/>
             My name is Edmilson (or simply Ed) and I'm a fullstack web developer at <AboutMeLink href="https://www.x-team.com/" target="_blank">X-Team</AboutMeLink>. <br/>
-            I enjoy reading and writing about programming (Javascript, React ♥), games, personal development and random stuff. <br/><br/>
+            I enjoy reading and writing about programming (Javascript, React ♥), games, personal development and random stuff. And memes. <br/><br/>
 
             You can contact me on <AboutMeLink href="https://www.twitter.com/edmilson_rocha_" target="_blank">Twitter</AboutMeLink> :)
           </AboutMeText>
